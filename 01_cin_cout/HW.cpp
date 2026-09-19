@@ -8,7 +8,6 @@ using namespace std;
 void task_3();//Билеты
 
 int main () {
-
     //Вызов функций(задач)
     //task_1(); //1 A+B
     //task_2();//Сколько тебе лет?
@@ -31,7 +30,7 @@ void task_1() {//1 A+B
     cout << "Ответ: " << result << "\n";
 }*/
 /*
-void task_2(){;//Сколько тебе лет?
+void task_2() {//Сколько тебе лет?
     int b = 0;
     int n = 0;
 
@@ -46,7 +45,7 @@ void task_2(){;//Сколько тебе лет?
 
 }*/
 
-void task_3(){;//Билеты
+void task_3() {//Билеты
     int s = 0;
     int a = 0;
 
@@ -56,7 +55,6 @@ void task_3(){;//Билеты
     cin >> a;
     
     int count = a * 3;
-
     int result = s - count;
 
     cout << "Ответ: " << result << "\n";
