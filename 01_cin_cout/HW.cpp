@@ -3,22 +3,24 @@
 using namespace std;
 
 //Объявление функций (задач)
-//void task_1(); //1 A+B
+//void task_1(); //A+B
 //void task_2(); //Сколько тебе лет?
 //void task_3(); //Билеты
-void task_4(); //Прямоугольник
+//void task_4(); //Прямоугольник
+void task_5(); //A-B
 
 int main () {
     //Вызов функций(задач)
-    //task_1(); //1 A+B
+    //task_1(); //A+B
     //task_2(); //Сколько тебе лет?
     //task_3(); //Билеты
-    task_4(); //Прямоугольник
+    //task_4(); //Прямоугольник
+    task_5(); //A-B
 
     return 0;
 }
 /*
-void task_1() { //1 A+B
+void task_1() { //A+B
     int a = 0;
     int b = 0;
 
@@ -62,7 +64,7 @@ void task_3() { //Билеты
     cout << "Ответ: " << result << "\n";
 
 }*/
-
+/*
 void task_4() { //Прямоугольник
     int a = 0;
     int b = 0;
@@ -77,4 +79,18 @@ void task_4() { //Прямоугольник
 
     cout << "Ответ: " << per << " " << s << "\n";
 
+}*/
+
+void task_5() { // A-B
+    int a = 0;
+    int b = 0;
+
+    cout << "Введите значение a: ";
+    cin >> a;
+    cout << "Введите значение b: ";
+    cin >> b;
+    
+    int result = a - b;
+
+    cout << "Ответ: " << result << "\n";
 }
