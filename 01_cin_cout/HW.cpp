@@ -3,20 +3,22 @@
 using namespace std;
 
 //Объявление функций (задач)
-//void task_1();//1 A+B
-//void task_2();//Сколько тебе лет?
-void task_3();//Билеты
+//void task_1(); //1 A+B
+//void task_2(); //Сколько тебе лет?
+//void task_3(); //Билеты
+void task_4(); //Прямоугольник
 
 int main () {
     //Вызов функций(задач)
     //task_1(); //1 A+B
-    //task_2();//Сколько тебе лет?
-    task_3();//Билеты
+    //task_2(); //Сколько тебе лет?
+    //task_3(); //Билеты
+    task_4(); //Прямоугольник
 
     return 0;
 }
 /*
-void task_1() {//1 A+B
+void task_1() { //1 A+B
     int a = 0;
     int b = 0;
 
@@ -30,7 +32,7 @@ void task_1() {//1 A+B
     cout << "Ответ: " << result << "\n";
 }*/
 /*
-void task_2() {//Сколько тебе лет?
+void task_2() { //Сколько тебе лет?
     int b = 0;
     int n = 0;
 
@@ -44,8 +46,8 @@ void task_2() {//Сколько тебе лет?
     cout << "Ответ: " << result << "\n";
 
 }*/
-
-void task_3() {//Билеты
+/*
+void task_3() { //Билеты
     int s = 0;
     int a = 0;
 
@@ -58,5 +60,21 @@ void task_3() {//Билеты
     int result = s - count;
 
     cout << "Ответ: " << result << "\n";
+
+}*/
+
+void task_4() { //Прямоугольник
+    int a = 0;
+    int b = 0;
+
+    cout << "Введите сторону a: ";
+    cin >> a;
+    cout << "Введите сторону b: ";
+    cin >> b;
+    
+    int per = (a * 2) + (b * 2);
+    int s = a * b;
+
+    cout << "Ответ: " << per << " " << s << "\n";
 
 }
