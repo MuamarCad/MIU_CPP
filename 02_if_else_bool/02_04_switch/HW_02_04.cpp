@@ -1,6 +1,11 @@
 #include <iostream>
 #include "math.h"
 
+/*
+TO DO:
+1. Решить задачи
+*/
+
 using namespace std;
 
 //Объявление функций (задач)
@@ -11,4 +16,9 @@ int main() {
     task();
 
     return 0;
+}
+
+void task_1() {
+
+    
 }
