@@ -70,37 +70,49 @@ void task_3() { //Аттракцион
 }*/
 /*
 void task_4() { //Три нечетных
-    int a, b, c;
-    cin >> a >> b >> c;
+    int a = 0;
+    int b = 0;
+    int c = 0;
 
-    cout << (a % 2 != 0 && b % 2 != 0 && c % 2 != 0);
+    cout << "Введите a: ";
+    cin >> a;
+    cout << "Введите b: ";
+    cin >> b;
+    cout << "Введите c: ";
+    cin >> c;
 
-    return 0;
+    cout << "Ответ: " << (a % 2 != 0 && b % 2 != 0 && c % 2 != 0);
 }*/
 /*
 void task_5() { //Доброе утро
-    int h;
-    cin >> h;
+    int hour = 0;
 
-    cout << 1 + (h >= 11) + (h >= 18);
+    cout << "Введите время: ";
+    cin >> hour;
 
-    return 0;
+    cout << "Ответ: " << 1 + (h >= 11) + (h >= 18);
 }*/
 /*
 void task_6() { //Потерянное время
-    int c, d;
-    cin >> c >> d;
+    int c = 0;
+    int d = 0;
 
-    cout << (c >= 0 && c <= 23 && d >= 0 && d <= 59);
+    cout << "Введите ... : "; // TO DO: Расписать
+    cin >> c;
+    cout << "Введите ... :"; // TO DO: Расписать
+    cin >> d;
 
-    return 0;
+    cout << "Ответ: " << (c >= 0 && c <= 23 && d >= 0 && d <= 59);
 }*/
 /*
 void task_7() { //Попадание в прямоугольник
-    int x, y;
-    cin >> x >> y;
+    int x = 0;
+    int y = 0;
 
-    cout << (x > 1 && x < 4 && y > 2 && y < 7);
+    cout << "Введите ... :"; // TO DO: Расписать
+    cin >> x;
+    cout << "Введите ... :"; // TO DO: Расписать
+    cin >> y;
 
-    return 0;
+    cout << "Ответ: " << (x > 1 && x < 4 && y > 2 && y < 7);
 }*/
