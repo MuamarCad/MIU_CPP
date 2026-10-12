@@ -5,10 +5,10 @@ using namespace std;
 
 //Объявление функций (задач)
 //void task_1(); //Поменяй местами
-//void task_2(); //Равны?
+//void task_2(); //Равны
 //void task_3(); //Измени число - 1
 //void task_4(); //Футбол
-//void task_5(); //Положительные в квадрат!
+//void task_5(); //Положительные в квадрат
 //void task_6(); //Сумма положительных
 //void task_7(); //Уменьшить большее из трех
 //void task_8(); //Измени число - 3
@@ -18,10 +18,10 @@ using namespace std;
 int main() {
     //Вызов функций(задач)
     //task_1(); //Поменяй местами
-    //task_2(); //Равны?
+    //task_2(); //Равны
     //task_3(); //Измени число - 1
     //task_4(); //Футбол
-    //task_5(); //Положительные в квадрат!
+    //task_5(); //Положительные в квадрат
     //task_6(); //Сумма положительных
     //task_7(); //Уменьшить большее из трех
     //task_8(); //Измени число - 3
@@ -30,7 +30,7 @@ int main() {
 
     return 0;
 }
-
+/*
 void task_1() { //Поменяй местами
     long long a = 0;
     long long b = 0;
@@ -44,9 +44,9 @@ void task_1() { //Поменяй местами
     }
 
     cout << a << " " << b << endl;
-}
-
-void task_2() { //Равны?
+}*/
+/*
+void task_2() { //Равны
     long long a = 0;
     long long b = 0;
 
@@ -58,8 +58,8 @@ void task_2() { //Равны?
     }
 
     cout << a << " " << b << endl;
-}
-
+}*/
+/*
 void task_3() { //Измени число - 1
     long long a = 0;
 
@@ -70,8 +70,8 @@ void task_3() { //Измени число - 1
     }
 
     cout << a << endl;
-}
-
+}*/
+/*
 void task_4() { //Футбол
     int s = 0;
 
@@ -86,9 +86,9 @@ void task_4() { //Футбол
     else {
         cout << "DRAW" << endl;
     }
-}
-
-void task_5() { //Положительные в квадрат!
+}*/
+/*
+void task_5() { //Положительные в квадрат
     long long a = 0;
     long long b = 0;
     long long c = 0;
@@ -108,8 +108,8 @@ void task_5() { //Положительные в квадрат!
     }
 
     cout << a << " " << b << " " << c << endl;
-}
-
+}*/
+/*
 void task_6() { //Сумма положительных
     long long a = 0;
     long long b = 0;
@@ -131,8 +131,8 @@ void task_6() { //Сумма положительных
     }
 
     cout << sum << endl;
-}
-
+}*/
+/*
 void task_7() { //Уменьшить большее из трех
     long long a = 0;
     long long b = 0;
@@ -151,8 +151,8 @@ void task_7() { //Уменьшить большее из трех
     }
 
     cout << a << " " << b << " " << c << endl;
-}
-
+}*/
+/*
 void task_8() { //Измени число - 3
     long long a = 0;
     long long b = 0;
@@ -188,8 +188,8 @@ void task_8() { //Измени число - 3
     }
 
     cout << a << " " << b << " " << c << endl;
-}
-
+}*/
+/*
 void task_9() { //Минус 100
     long long n = 0;
     long long m = 0;
@@ -201,8 +201,8 @@ void task_9() { //Минус 100
     }
 
     cout << n << " " << m << endl;
-}
-
+}*/
+/*
 void task_10() { //Бассейн
     int N = 0;
     int M = 0;
@@ -228,4 +228,4 @@ void task_10() { //Бассейн
     }
 
     cout << result << endl;
-}
+}*/

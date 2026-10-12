@@ -24,7 +24,7 @@ int main() {
 
     return 0;
 }
-
+/*
 void task_1() { //Медаль
     int n = 0;
 
@@ -43,8 +43,8 @@ void task_1() { //Медаль
         default:
             cout << "NO MEDAL" << endl;
     }
-}
-
+}*/
+/*
 void task_2() { //Гуманоиды
     int x = 0;
 
@@ -60,8 +60,8 @@ void task_2() { //Гуманоиды
         default:
             cout << "Multieye" << endl;
     }
-}
-
+}*/
+/*
 void task_3() { //Оценка
     int k = 0;
 
@@ -86,8 +86,8 @@ void task_3() { //Оценка
         default:
             cout << "error" << endl;
     }
-}
-
+}*/
+/*
 void task_4() { //День недели - 2
     int d = 0;
 
@@ -116,8 +116,8 @@ void task_4() { //День недели - 2
             cout << "SUNDAY" << endl;
             break;
     }
-}
-
+}*/
+/*
 void task_5() { //Времена года
     int m = 0;
 
@@ -145,8 +145,8 @@ void task_5() { //Времена года
             cout << "AUTUMN" << endl;
             break;
     }
-}
-
+}*/
+/*
 void task_6() { //Светофор
     int t = 0;
 
@@ -166,8 +166,8 @@ void task_6() { //Светофор
             cout << "RED" << endl;
             break;
     }
-}
-
+}*/
+/*
 void task_7() { //Гороскоп
     int D = 0;
     int M = 0;
@@ -259,4 +259,4 @@ void task_7() { //Гороскоп
                 cout << "Capricorn" << endl;
             break;
     }
-}
+}*/
