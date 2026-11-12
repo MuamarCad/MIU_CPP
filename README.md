@@ -20,6 +20,10 @@ MIU_CPP/
 ├── 03_for_while/
 │   ├── 03_04_for/
 │   └── 03_04_while/
+├── 04_nested_loops/
+│   ├── 04_01_loops-continued/
+│   ├── 04_02_sequences-continued/
+│   └── 04_03_nested_loops/
 └── README.md
 ```
 ---
@@ -38,5 +42,3 @@ g++ HW_01.cpp -o HW_01
 3. Там будет кнопка с иконкой Play (треугольник) и подписью Run C/C++ File (или просто иконка Play).
 4. Нажмите на неё.
 5. VS Code сам сохранит файл, скомпилирует его и выведет результат в нижний терминал.
----
-### Запуск в Visual Studio
